@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="moo.users.users" skipped="0" tests="1" time="1.801492">
+<testcase classname="moo.users.users" name="Fetch valid user - GET call." time="1.801492">
+<system-out><![CDATA[* url baseUrl...............................................................passed
+* def header_Data = { Content-Type: "application/json", Accept: "application/json"}.passed
+Given path 'users'..........................................................passed
+When method get.............................................................passed
+Then status 200.............................................................passed
+And match header Content-Type contains 'application/json'...................passed
+And match header Connection == 'keep-alive'.................................passed
+And match header Cache-Control contains 'public'............................passed
+* def first = response[0]...................................................passed
+Given path 'users', first.id................................................passed
+When method get.............................................................passed
+Then status 200.............................................................passed
+And assert responseStatus == 200 || responseStatus == 204...................passed
+* print "response : ", response.............................................passed
+* print "user id from response : ", response.id.............................passed
+* def result = response.....................................................passed
+* print "result : "  ,result.id.............................................passed
+* print "result.name : ", result.name.......................................passed
+* print "result.username : ", result.username...............................passed
+* print "result.email : ", result.email.....................................passed
+* print "result.phone : ", result.phone.....................................passed
+* print "result.website : ", result.website.................................passed
+Then match result.name ==  '#string'........................................passed
+And match result.username ==  '#string'.....................................passed
+And match response.id == '#number'..........................................passed
+And match response.phone == '#regex [0-9].*-[0-9]*-[0-9]*-[0-9]* x[0-9]*'...passed
+* def userEmail = {email: '#(result.email)' }...............................passed
+* print "email : ", userEmail...............................................passed
+And match userEmail == { email : '#regex [a-zA-Z].*@[a-zA-Z].[a-z].*' }.....passed
+]]></system-out>
+</testcase>
+</testsuite>
