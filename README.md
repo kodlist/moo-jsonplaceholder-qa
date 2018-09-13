@@ -40,3 +40,53 @@ Further checks:
 1. Please write automated checks that cover these scenarios
 2. Please write two additional pieces of acceptance criteria that describe other behaviours of the API, and implement checks for those as well
 3. Please write a ReadMe for your test framework - the reviewer of your code should be able to run the tests you write using only the ReadMe
+
+
+# Getting Started
+Karate requires [Java](http://www.oracle.com/technetwork/java/javase/downloads/index.html) 8 (at least version 1.8.0_112 or greater) and then either [Maven](http://maven.apache.org), [Gradle](https://gradle.org) or [Eclipse](#eclipse-quickstart) to be installed.
+
+## Maven
+
+So you need two `<dependencies>`:
+
+```xml
+<dependency>
+            <groupId>com.intuit.karate</groupId>
+            <artifactId>karate-junit4</artifactId>
+            <version>${project.version}</version>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>com.intuit.karate</groupId>
+            <artifactId>karate-apache</artifactId>
+            <version>${project.version}</version>
+            <scope>test</scope>
+        </dependency>         
+                    
+        <dependency>
+            <groupId>net.masterthought</groupId>
+            <artifactId>cucumber-reporting</artifactId>
+            <version>3.8.0</version>
+            <scope>test</scope>
+        </dependency>
+```
+
+
+### Quickstart
+It may be easier for you to use the Karate Maven archetype to create a skeleton project with one command.
+
+> If you are behind a corporate proxy, or especially if your local Maven installation has been configured to point to a repository within your local network, the command below may not work. One workaround is to temporarily disable or rename your Maven [`settings.xml`](https://maven.apache.org/settings.html) file, and try again.
+
+You can replace the values of `com.mycompany` and `myproject` as per your needs.
+
+```
+mvn archetype:generate \
+-DarchetypeGroupId=com.intuit.karate \
+-DarchetypeArtifactId=karate-archetype \
+-DarchetypeVersion=0.8.0 \
+-DgroupId=com.mycompany \
+-DartifactId=myproject
+```
+
+This will create a folder called `myproject` (or whatever you set the name to).
+
