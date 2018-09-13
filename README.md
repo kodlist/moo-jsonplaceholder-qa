@@ -127,9 +127,9 @@ This will create a folder called `myproject` (or whatever you set the name to).
 
 ### Project Structure
 
-![](images/project_struc_01.JPG)
+![](images/project_struc_01.jpg)
 
-### In the next two images you will witness the **Configuration file** and Karate keyword **Background** in feature file
+> In the next two images you will witness the **Configuration file** and Karate keyword **Background** in feature file
 
 ![](images/config_js_01.JPG)
 
