@@ -93,7 +93,7 @@ This will create a folder called `myproject` (or whatever you set the name to).
 
 :point_right: #### Now we get in to the real work.
 
-> I will first put all the karate bdd scenarios. After all the test **(GET, POST, DELETE)** scenarios, you should find the project structure.
+> I will first put all the karate bdd scenarios - covers **(GET, POST, DELETE)** scenarios. you should find the project structure at the end.
 
 ### Test scenario one: GET user
 
@@ -103,7 +103,7 @@ This will create a folder called `myproject` (or whatever you set the name to).
 ![](images/scenario_get_1.JPG)
 
 
-### Test scenario one: Create new user - POST
+### Test scenario two: Create new user - POST
 
 ![](images/scenario_post_01.JPG)
 
