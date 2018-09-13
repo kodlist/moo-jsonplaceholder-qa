@@ -97,6 +97,9 @@ This will create a folder called `myproject` (or whatever you set the name to).
 
 ### Test scenario: GET user
 
+![](images/scenario_get_2.JPG)
+
+> This below image is same as above, but only with extra stuff to inform - How to execute and what things to take before running maven command.
 ![](images/scenario_get_1.JPG)
 
 > If you are familar with Cucumber, the [*big difference*](#cucumber-vs-karate) here is that you **don't** need to write extra "glue" code or Java "step definitions" !
