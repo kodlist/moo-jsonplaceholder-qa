@@ -183,6 +183,8 @@ To see **Configuration file** in this project, [click](https://github.com/meharl
    
    Karate also helps me to easily test soap services as well. Karate syntax is very similar or 
    most times the same format for both **SOAP** and **Restful**.
+   
+   With minimal java or javascript expeience you can run Karate tests.
    ```
    
 2. What questions I would ask my product manager?
@@ -200,9 +202,30 @@ To see **Configuration file** in this project, [click](https://github.com/meharl
    if I were to use RestAssured with JUnit or TestNG. But there is a cost - time factor - time to write 
    api test in karate is much easier, faster and easy to maintain compared to any other tool. 
    Finally, in my experience it is little daunting or challenging task for manual tester (qa) to make use 
-   of code written in Java be it **Restassured** or **SAAJ**. Karate makes my life easy, because I had to
-   make sure framework is ready or coded as early as possible and let others to use it. 
+   of code written in Java, be it **Restassured** or **SAAJ**. Karate makes my life easy, because I had to
+   make sure framework is ready or coded as early as possible and let others in the team use it. 
    ```
 
+3. Why did I choose to structure my code in the way it is?
 
+   ```
+   To repeat, these are really easy api's tests. If I were to test complex scenarios, such as - reusing
+   data from previous output, then I would be also including extra maven project with small light weight
+   database or csv datastore, this will help me to apply dependency in test project and save reusable values.
+   
+   Adding to the above, if i were to test multiple api's covering different business requirements (or different
+   work flows) then I will be maintaining different packages for specific work flows.
+   
+   Next, If i were to run only particular feature files then I would be maintaining a specific parent folder under
+   (src\test\java) where it will hold only one feature file having or calling other feature files (only the required ones).   
+   ```
+
+4. What is my approach to start testing on a given project or task?
+
+  ```
+  Ask as many questions as possible, know things you are not aware, try to figure out challenges in the early stage of product
+  development, be involved, show good support to stakeholders - dev, qa, BA's, product manager and etc -, maintain good 
+  communication and presentation at every level.
+  ```
+  
 :thumbsup: **Good Luck with [Karate](https://github.com/intuit/karate#quickstart)**
