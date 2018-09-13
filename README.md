@@ -105,6 +105,9 @@ This will create a folder called `myproject` (or whatever you set the name to).
 
 ### Test scenario one: Create new user - POST
 
+![](images/scenario_post_01.JPG)
+
+> This below image is same as above, but only with extra stuff to inform
 ![](images/scenario_post_02.jpg)
 
 > If you are familar with Cucumber, the [*big difference*](#cucumber-vs-karate) here is that you **don't** need to write extra "glue" code or Java "step definitions" !
