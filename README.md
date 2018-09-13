@@ -47,7 +47,7 @@ This work requires [Java](http://www.oracle.com/technetwork/java/javase/download
 
 ## Maven
 
-So you need two `<dependencies>`:
+So you need following `<dependencies>`: Or you simply [click](https://github.com/meharlist/moo-jsonplaceholder-qa/blob/master/pom.xml) here
 
 ```xml
 	    <dependency>
@@ -93,7 +93,19 @@ This will create a folder called `myproject` (or whatever you set the name to).
 
 :point_right: #### Now we get in to the real work.
 
-> I will first put all the karate bdd scenarios - covers **(GET, POST, DELETE)** scenarios. you should find the project structure at the end.
+### Maven commands to run this project
+
+> **mvn clean package compiler:testCompile surefire:test**
+If you just want to run this project, please make sure to put or append **#** before ignore tag as shown below. I request to use just one scenario for dry run.
+![](images/keeping_hash_sign_01.JPG)
+
+> **Report** - to see reports (cucumber html output and maven json files), please open target folder in your project.
+
+:point_right: #### Now I want to show all the scenarios, if you want to execute all scenarios after this, please append "#" before **ignore** tag.
+
+> I will first put all the karate bdd scenarios - covers **(GET, POST, DELETE)** scenarios. You should find the **project structure** down the road of this work.
+If you want to see the feature file that has all the scenarios [click](https://github.com/meharlist/moo-jsonplaceholder-qa/blob/master/src/test/java/moo/users/users.feature) here.
+
 
 ### Test scenario one: GET user
 
@@ -111,6 +123,8 @@ This will create a folder called `myproject` (or whatever you set the name to).
 ![](images/scenario_post_02.jpg)
 
 > Before we create new user using **(POST)** , we read data (newUser.json) and modify payload. The required data comes from examples as shown above.
+To see payload file [click](https://github.com/meharlist/moo-jsonplaceholder-qa/blob/master/src/test/java/moo/users/newUser.json) here.
+
 ![](images/scenario_post_03.jpg)
 
 
@@ -122,14 +136,17 @@ This will create a folder called `myproject` (or whatever you set the name to).
 
 ![](images/scenario_get_del_01.JPG)
 
-> If you are familiar with Cucumber, the big difference(cucumber-vs-karate) here is that you **don't** need to write extra "glue" code or Java "step definitions" !
-
 
 ### Project Structure
 
 ![](images/project_struc_01.jpg)
 
 > In the next image you will witness the **Configuration file** and Karate keyword **Background** in feature file
+To see **Configuration file** in this project, [click](https://github.com/meharlist/moo-jsonplaceholder-qa/blob/master/src/test/java/karate-config.js) here, and to witness or understand **Background** [click](https://github.com/meharlist/moo-jsonplaceholder-qa/blob/master/src/test/java/moo/users/users.feature) here.
 
 ![](images/baseUrl_config_feature_file.jpg)
 
+
+> If you are familiar with Cucumber, the big difference(cucumber-vs-karate) here is that you **don't** need to write extra "glue" code or Java "step definitions" !
+
+:thumbsup: **Good Luck with [Karate](https://github.com/intuit/karate#quickstart)**

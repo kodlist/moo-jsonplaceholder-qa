@@ -48,7 +48,7 @@ Background:
 
 
 
-@ignore
+#@ignore
 @fetchValidUser
 Scenario: Fetch valid user - GET call.
           ***************************************************************
