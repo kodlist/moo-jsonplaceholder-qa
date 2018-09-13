@@ -114,4 +114,12 @@ This will create a folder called `myproject` (or whatever you set the name to).
 ![](images/scenario_post_03.jpg)
 
 
+### Test scenario three: GET invalid user
+
+![](images/scenario_get_invalid_01.JPG)
+
+### Test scenario four: DELETE user 
+
+![](images/scenario_get_del_01.JPG)
+
 > If you are familar with Cucumber, the [*big difference*](#cucumber-vs-karate) here is that you **don't** need to write extra "glue" code or Java "step definitions" !
