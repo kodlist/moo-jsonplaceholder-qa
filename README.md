@@ -12,21 +12,26 @@ As a client of this API, I want to be able to:
 
  - Get a list of the following attributes about a user
 <table>
- <tr><th> Name </th></tr>
- <tr><th> Username </th></tr>
- <tr><th> Email </th></tr>
- <tr><th> Phone </th></tr>
- <tr> <th>Website</th></tr>
+ <tr><td>Name</td></tr>
+ <tr><td>Username</td></tr>
+ <tr><td>Email</td></tr>
+ <tr><td>Phone</td></tr>
+ <tr><td>Website</td></tr>
  </table>
+ 
  - Get a 404 status code when retrieving the details of an invalid user
+ 
  - Get a 200 status code when retrieving the details of a valid user
+ 
  - Create a new user
+ 
  - Delete a user
+ 
  - See the following fields in the header of a response when getting a list of users:
  <table>
- <tr> Cache-Control => public</tr>
- <tr> Connection => keep-alive</tr>
- <tr> Content-Type => application/json</tr> 
+  <tr><th>Cache-Control => public</th></tr>
+  <tr><th>Connection => keep-alive</th></tr>
+  <tr><th>Content-Type => application/json</th></tr> 
  </table>
 
 
