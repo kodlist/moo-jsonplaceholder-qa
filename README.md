@@ -222,10 +222,10 @@ To see **Configuration file** in this project, [click](https://github.com/meharl
 
 4. What is my approach to start testing on a given project or task?
 
-  ```
-  Ask as many questions as possible, know things you are not aware, try to figure out challenges in the early stage of product
-  development, be involved, show good support to stakeholders - dev, qa, BA's, product manager and etc -, maintain good 
-  communication and presentation at every level.
-  ```
+   ```
+   Ask as many questions as possible, know things you are not aware, try to figure out challenges in the early stage 
+   of product development, be involved, show good support to stakeholders - dev, qa, BA's, product manager and etc -,
+   maintain good communication and presentation at every level.
+   ```
   
 :thumbsup: **Good Luck with [Karate](https://github.com/intuit/karate#quickstart)**
