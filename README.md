@@ -91,7 +91,9 @@ mvn archetype:generate \
 This will create a folder called `myproject` (or whatever you set the name to).
 
 
-:point_right: Now the real work.
+:point_right: #### Now we get in to the real work.
+
+> I will first put all the karate bdd scenarios. After all the test **(GET, POST, DELETE)** scenarios, you should find the project structure.
 
 ### Test scenario: GET user
 
