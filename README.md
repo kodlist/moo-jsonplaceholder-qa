@@ -178,8 +178,8 @@ To see **Configuration file** in this project, [click](https://github.com/meharl
    It is the best project or framework out there and most used **GIT** project in the market. 
    It is pretty easy - no extra clutter - no forming dynamic url's, no extra code to generate 
    beautiful report, no extra code to log input/output, very easy to understand, while all these 
-   things need extra time if i were to use **RestAssured** or any other tools or any other tool 
-   or api's to test **Webservices**.
+   things need extra time if i were to use **RestAssured** or any other tools or frameworks or
+   api's to test **Webservices**.
    
    Karate also helps me to easily test soap services as well. Karate syntax is very similar or 
    most times the same format for both **SOAP** and **Restful**.
@@ -199,8 +199,9 @@ To see **Configuration file** in this project, [click](https://github.com/meharl
    Note: Such value or variable reusability handling is little different or I may not use any datastore 
    if I were to use RestAssured with JUnit or TestNG. But there is a cost - time factor - time to write 
    api test in karate is much easier, faster and easy to maintain compared to any other tool. 
-   Finally, it is little daunting or challenging task to make it easy for manual tester (qa) to make use
-   of code base.
+   Finally, in my experience it is little daunting or challenging task for manual tester (qa) to make use 
+   of code written in Java be it **Restassured** or **SAAJ**. Karate makes my life easy, because I had to
+   make sure framework is ready or coded as early as possible and let others to use it. 
    ```
 
 
