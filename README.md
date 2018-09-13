@@ -99,7 +99,7 @@ This will create a folder called `myproject` (or whatever you set the name to).
 mvn clean package compiler:testCompile surefire:test
 ```
 
-If you just want to run this project, please make sure to put or append **#** before ignore tag as shown below. I request to use just one scenario for dry run.
+If you just want to run this project, please make sure to put or append **#** before ignore tag as shown below. I request anyone to use just one scenario for dry run.
 
 ![](images/keeping_hash_sign_01.JPG)
 
@@ -171,29 +171,37 @@ To see **Configuration file** in this project, [click](https://github.com/meharl
 
 ### My answers or argument for the questions asked in test.
 
-```
-1. **Why I choose Karate for API testing?**
-   
-   It is the best project or framework out there and most used **GIT** project in the market. It is pretty easy - no extra clutter - no forming dynamic url's, no extra code
-   to geneate beautiful report, no extra code to log input/output, very easy to understand, while all these things need extra time if i were to use **RestAssured** or any other tools 
-   or any other tool or api's to test **Webservices**.
-   
-   Karate also helps me to easily test soap services as well. Karate syntax is very similar or most times the same format for both **SOAP** and **Restful**.
 
-2. **What questions I would ask my product manager?**
+1. Why I choose Karate for API testing?
+  
+   ``` 
+   It is the best project or framework out there and most used **GIT** project in the market. 
+   It is pretty easy - no extra clutter - no forming dynamic url's, no extra code to generate 
+   beautiful report, no extra code to log input/output, very easy to understand, while all these 
+   things need extra time if i were to use **RestAssured** or any other tools or any other tool 
+   or api's to test **Webservices**.
    
-   I don't have any further questions to ask. My aim is always to understand requirements, gather as much information as possible, ask questions, give answers,
-   and conclude my objective to deliver. 
+   Karate also helps me to easily test soap services as well. Karate syntax is very similar or 
+   most times the same format for both **SOAP** and **Restful**.
+   ```
    
-   Just to add further, these are pretty straight forward api's to test using any tool or framework (ex: Karate, restassured along with Junit or TestNG).
-   If my api test requires to reuse a particular value from prior api test (output) then, I have to think about data storage, basically I save 
-   required value in variable and then save it in some data store (may be I would write extra java code to save it in csv or sqlllite), and 
-   I would fetch the particular value for the consecutive api tests. Note: Such value or variable reusability handling is little different or I may
-   not use any datastore if I were to use RestAssured with JUnit or TestNG. But there is a cost - time factor - time to write api test in karate is much easier, faster
-   and easy to maintain compared to any other tool. Finally, it is little daunting or challenging task to make it easy for manual tester (qa) to make use of
-   code base.
-
-```
+2. What questions I would ask my product manager?
+   
+   ```
+   I don't have any further questions to ask. My aim is always to understand requirements, gather 
+   as much information as possible, ask questions, give answers, and conclude my objective to deliver. 
+   
+   Just to add further, these are pretty straight forward api's to test using any tool or framework 
+   (ex: Karate, restassured along with Junit or TestNG). If my api test requires to reuse a particular 
+   value from prior api test (output) then, I have to think about data storage, basically I save 
+   required value in variable and then save it in some data store (may be I would write extra java code
+   to save it in csv or sqlllite), and I would fetch the particular value for the consecutive api tests.
+   Note: Such value or variable reusability handling is little different or I may not use any datastore 
+   if I were to use RestAssured with JUnit or TestNG. But there is a cost - time factor - time to write 
+   api test in karate is much easier, faster and easy to maintain compared to any other tool. 
+   Finally, it is little daunting or challenging task to make it easy for manual tester (qa) to make use
+   of code base.
+   ```
 
 
 :thumbsup: **Good Luck with [Karate](https://github.com/intuit/karate#quickstart)**
