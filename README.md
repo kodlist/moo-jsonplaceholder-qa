@@ -50,7 +50,7 @@ Karate requires [Java](http://www.oracle.com/technetwork/java/javase/downloads/i
 So you need two `<dependencies>`:
 
 ```xml
-<dependency>
+		<dependency>
             <groupId>com.intuit.karate</groupId>
             <artifactId>karate-junit4</artifactId>
             <version>${project.version}</version>
@@ -75,7 +75,7 @@ So you need two `<dependencies>`:
 ### Quickstart
 It may be easier for you to use the Karate Maven archetype to create a skeleton project with one command.
 
-> If you are behind a corporate proxy, or especially if your local Maven installation has been configured to point to a repository within your local network, the command below may not work. One workaround is to temporarily disable or rename your Maven [`settings.xml`](https://maven.apache.org/settings.html) file, and try again.
+> If you are behind a corporate proxy, follow this Karate [link](https://github.com/intuit/karate#quickstart)
 
 You can replace the values of `com.mycompany` and `myproject` as per your needs.
 
