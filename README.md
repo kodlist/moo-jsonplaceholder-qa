@@ -122,4 +122,15 @@ This will create a folder called `myproject` (or whatever you set the name to).
 
 ![](images/scenario_get_del_01.JPG)
 
-> If you are familar with Cucumber, the [*big difference*](#cucumber-vs-karate) here is that you **don't** need to write extra "glue" code or Java "step definitions" !
+> If you are familiar with Cucumber, the big difference(cucumber-vs-karate) here is that you **don't** need to write extra "glue" code or Java "step definitions" !
+
+
+### Project Structure
+
+![](images/project_struc_01.JPG)
+
+### In the next two images you will witness the **Configuration file** and Karate keyword **Background** in feature file
+
+![](images/config_js_01.JPG)
+
+![](images/config_js_02.JPG)
