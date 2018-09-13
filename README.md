@@ -93,18 +93,21 @@ This will create a folder called `myproject` (or whatever you set the name to).
 
 :point_right: #### Now we get in to the real work.
 
-### Maven commands to run this project
+### Maven command to run this project
 
 > **mvn clean package compiler:testCompile surefire:test**
+
 If you just want to run this project, please make sure to put or append **#** before ignore tag as shown below. I request to use just one scenario for dry run.
 ![](images/keeping_hash_sign_01.JPG)
 
 > **Report** - to see reports (cucumber html output and maven json files), please open target folder in your project.
 
+
 :point_right: #### Now I want to show all the scenarios, if you want to execute all scenarios after this, please append "#" before **ignore** tag.
 
 > I will first put all the karate bdd scenarios - covers **(GET, POST, DELETE)** scenarios. You should find the **project structure** down the road of this work.
 If you want to see the feature file that has all the scenarios [click](https://github.com/meharlist/moo-jsonplaceholder-qa/blob/master/src/test/java/moo/users/users.feature) here.
+
 
 
 ### Test scenario one: GET user
@@ -145,6 +148,15 @@ To see payload file [click](https://github.com/meharlist/moo-jsonplaceholder-qa/
 To see **Configuration file** in this project, [click](https://github.com/meharlist/moo-jsonplaceholder-qa/blob/master/src/test/java/karate-config.js) here, and to witness or understand **Background** [click](https://github.com/meharlist/moo-jsonplaceholder-qa/blob/master/src/test/java/moo/users/users.feature) here.
 
 ![](images/baseUrl_config_feature_file.jpg)
+
+
+### Reports/Output
+
+> Karate with the help of cucumber api generates default html reports. Note: maven surefire plugin (api) creates json files and those files will be used by cucumber to generate reports.
+
+![](images/output_01.jpg)
+![](images/report_02.JPG)
+![](images/report_03.JPG
 
 
 > If you are familiar with Cucumber, the big difference(cucumber-vs-karate) here is that you **don't** need to write extra "glue" code or Java "step definitions" !
