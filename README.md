@@ -95,6 +95,6 @@ This will create a folder called `myproject` (or whatever you set the name to).
 
 ### Test scenario: GET user
 
-<img src="jsonplaceholder\images\scenario_get_1.JPG" height="400" />
+![](images/scenario_get_1.JPG)
 
 > If you are familar with Cucumber, the [*big difference*](#cucumber-vs-karate) here is that you **don't** need to write extra "glue" code or Java "step definitions" !
