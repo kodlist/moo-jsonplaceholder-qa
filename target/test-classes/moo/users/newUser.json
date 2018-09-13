@@ -1,18 +1,18 @@
 {
   
-  "name": "Fiona Fiona",
-  "username": "Fiona",
-  "email": "fiona232@getnada.com",
+  "name": "",
+  "username": "",
+  "email": "",
   "address": {
     "street": "Farringdon Road",
     "suite": "Apt. 556",
     "city": "London",
-    "zipcode": "90566-7771"
+    "zipcode": ""
   },
-  "phone": "1-770-736-8031 x56442",
-  "website": "getnada.com",
+  "phone": "",
+  "website": "",
   "company": {
-    "name": "GG group",
+    "name": "",
     "catchPhrase": "Multi-layered client-server neural-net",
     "bs": "harness real-time e-markets"
   }

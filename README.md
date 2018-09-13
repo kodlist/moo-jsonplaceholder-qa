@@ -110,4 +110,8 @@ This will create a folder called `myproject` (or whatever you set the name to).
 > This below image is same as above, but only with extra stuff to inform
 ![](images/scenario_post_02.jpg)
 
+> Before we create new user using **(POST)** , we read data (newUser.json) and modify payload. The required data comes from examples as shown above.
+![](images/scenario_post_03.jpg)
+
+
 > If you are familar with Cucumber, the [*big difference*](#cucumber-vs-karate) here is that you **don't** need to write extra "glue" code or Java "step definitions" !
