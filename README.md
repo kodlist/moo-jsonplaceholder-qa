@@ -93,11 +93,14 @@ This will create a folder called `myproject` (or whatever you set the name to).
 
 :point_right: **Now we get in to the real work.**
 
-### Maven command to run this project
 
+### Maven command to run this project
+```
 > **mvn clean package compiler:testCompile surefire:test**
+```
 
 If you just want to run this project, please make sure to put or append **#** before ignore tag as shown below. I request to use just one scenario for dry run.
+
 ![](images/keeping_hash_sign_01.JPG)
 
 > **Report** - to see reports (cucumber html output and maven json files), please open target folder in your project.
