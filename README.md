@@ -96,7 +96,7 @@ This will create a folder called `myproject` (or whatever you set the name to).
 
 ### Maven command to run this project
 ```
-> **mvn clean package compiler:testCompile surefire:test**
+mvn clean package compiler:testCompile surefire:test
 ```
 
 If you just want to run this project, please make sure to put or append **#** before ignore tag as shown below. I request to use just one scenario for dry run.
@@ -159,7 +159,7 @@ To see **Configuration file** in this project, [click](https://github.com/meharl
 
 ![](images/output_01.jpg)
 ![](images/report_02.JPG)
-![](images/report_03.JPG
+![](images/report_03.JPG)
 
 
 > If you are familiar with Cucumber, the big difference(cucumber-vs-karate) here is that you **don't** need to write extra "glue" code or Java "step definitions" !
