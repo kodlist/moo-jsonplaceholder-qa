@@ -1,8 +1,8 @@
 # moo-jsonplaceholder-qa
 
-Test automation work built for testing restful apis using [Karate unified test automation framework](https://github.com/intuit/karate)
+Test automation work built for testing restful api's using [Karate unified test automation framework](https://github.com/intuit/karate)
 
-## Task for today
+## QA Task
 
 
 To complete the exercises below, please use this API [jsonplaceholder](https://jsonplaceholder.typicode.com/). There are more details on the resources available for this API in the [Readme](https://github.com/typicode/jsonplaceholder) here.
@@ -43,14 +43,14 @@ Further checks:
 
 
 # Getting Started
-Karate requires [Java](http://www.oracle.com/technetwork/java/javase/downloads/index.html) 8 (at least version 1.8.0_112 or greater) and then either [Maven](http://maven.apache.org), [Gradle](https://gradle.org) or [Eclipse](#eclipse-quickstart) to be installed.
+This work requires [Java](http://www.oracle.com/technetwork/java/javase/downloads/index.html) 8 (at least version 1.8.0_112 or greater) and then either [Maven](http://maven.apache.org) or [Eclipse](#eclipse-quickstart) to be installed.
 
 ## Maven
 
 So you need two `<dependencies>`:
 
 ```xml
-		<dependency>
+	    <dependency>
             <groupId>com.intuit.karate</groupId>
             <artifactId>karate-junit4</artifactId>
             <version>${project.version}</version>
@@ -90,3 +90,11 @@ mvn archetype:generate \
 
 This will create a folder called `myproject` (or whatever you set the name to).
 
+
+:point_right: Now the real work.
+
+### Test scenario: GET user
+
+<img src="jsonplaceholder\images\scenario_get_1.JPG" height="400" />
+
+> If you are familar with Cucumber, the [*big difference*](#cucumber-vs-karate) here is that you **don't** need to write extra "glue" code or Java "step definitions" !
