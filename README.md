@@ -11,13 +11,13 @@ To complete the exercises below, please use this API [jsonplaceholder](https://j
 As a client of this [API](https://jsonplaceholder.typicode.com/users), I want to be able to:
 
  - Get a list of the following attributes about a user
-<table>
- <tr><td>Name</td></tr>
- <tr><td>Username</td></tr>
- <tr><td>Email</td></tr>
- <tr><td>Phone</td></tr>
- <tr><td>Website</td></tr>
- </table>
+&nbsp;&nbsp;<table>
+ &nbsp;&nbsp;<tr><td>Name</td></tr>
+ &nbsp;&nbsp;<tr><td>Username</td></tr>
+ &nbsp;&nbsp;<tr><td>Email</td></tr>
+ &nbsp;&nbsp;<tr><td>Phone</td></tr>
+ &nbsp;&nbsp;<tr><td>Website</td></tr>
+&nbsp;&nbsp;</table>
  
  - Get a 404 status code when retrieving the details of an invalid user
  
@@ -28,11 +28,11 @@ As a client of this [API](https://jsonplaceholder.typicode.com/users), I want to
  - Delete a user
  
  - See the following fields in the header of a response when getting a list of users:
-<table>
+&nbsp;&nbsp;<table>
  <tr><td>Cache-Control => public</td></tr>
  <tr><td>Connection => keep-alive</td></tr>
  <tr><td>Content-Type => application/json</td></tr> 
-</table>
+&nbsp;&nbsp;</table>
 
 
 Further checks:
