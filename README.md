@@ -51,7 +51,7 @@ So you need following `<dependencies>`: Or you simply [click](https://github.com
 
 ```xml
 
-	  <dependency>
+	 <dependency>
             <groupId>com.intuit.karate</groupId>
             <artifactId>karate-junit4</artifactId>
             <version>${project.version}</version>
@@ -97,9 +97,9 @@ This will create a folder called `myproject` (or whatever you set the name to).
 
 
 ### Maven command to run this project
-```
+
  - `mvn clean package compiler:testCompile surefire:test`
-```
+
 
 If you just want to run this project, please make sure to put or append **#** before ignore tag as shown below. I request anyone to use just one scenario for dry run.
 
