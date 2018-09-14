@@ -108,7 +108,7 @@ If you just want to run this project, please make sure to put or append **#** be
 > **Report** - to see reports (cucumber html output and maven json files), please open target folder in your project.
 
 
-:point_right: **Now I want to show all the scenarios, if you want to execute all scenarios after this, please append "#" before **ignore** tag.**
+:point_right: **Now I want to show all the scenarios. After this, if you want to execute all scenarios, please append** `#` **before** `ignore` **tag.**
 
 > I will first put all the karate bdd scenarios - covers **(GET, POST, DELETE)** scenarios. You should find the **project structure** down the road of this work.
 If you want to see the feature file that has all the scenarios [click](https://github.com/meharlist/moo-jsonplaceholder-qa/blob/master/src/test/java/moo/users/users.feature) here.
