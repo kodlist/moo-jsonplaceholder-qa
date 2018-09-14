@@ -231,5 +231,5 @@ To see **Configuration file** in this project, [click](https://github.com/meharl
    of product development, be involved, show good support to stakeholders - dev, qa, BA's, product manager and etc -,
    maintain good communication and presentation at every level.
    ```
-  
+  <br/><br/>
 :thumbsup: **Good Luck with [Karate](https://github.com/intuit/karate#quickstart)**
