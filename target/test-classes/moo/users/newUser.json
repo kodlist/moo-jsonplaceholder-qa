@@ -1,0 +1,19 @@
+{
+  
+  "name": "",
+  "username": "",
+  "email": "",
+  "address": {
+    "street": "Farringdon Road",
+    "suite": "Apt. 556",
+    "city": "London",
+    "zipcode": ""
+  },
+  "phone": "",
+  "website": "",
+  "company": {
+    "name": "",
+    "catchPhrase": "Multi-layered client-server neural-net",
+    "bs": "harness real-time e-markets"
+  }
+}
