@@ -108,29 +108,33 @@ If you just want to run this project, please make sure to put or append **#** be
 > **Report** - to see reports (cucumber html output and maven json files), please open target folder in your project.
 
 <br/>
-:point_right: **Now I want to show all the scenarios. After this, if you want to execute all scenarios, please append** `#` **before** &nbsp;&nbsp; `ignore` **tag.**
-<br/>
+:point_right: **Now I want to show all the scenarios. After this, if you want to execute all scenarios, please append `#` before &nbsp;&nbsp; `ignore` tag.
+<br/><br/>
 
 > I will first put all the karate bdd scenarios - covers **(GET, POST, DELETE)** scenarios. You should find the **project structure** down the road of this work.
 If you want to see the feature file that has all the scenarios [click](https://github.com/meharlist/moo-jsonplaceholder-qa/blob/master/src/test/java/moo/users/users.feature) here.
 
-
 <br/>
+
 ### Test scenario one: GET user
 
 ![](images/scenario_get_2.JPG)
 <br/>
+
 > This below image is same as above, but only with extra stuff to inform - How to execute and what things to take before running maven command.
 ![](images/scenario_get_1.JPG)
 
 <br/>
+
 ### Test scenario two: Create new user - POST
 
 ![](images/scenario_post_01.JPG)
 
 > This below image is same as above, but only with extra stuff to inform
 ![](images/scenario_post_02.jpg)
+
 <br/>
+
 > Before we create new user using **(POST)** , we read data (newUser.json) and modify payload. The required data comes from examples as shown above.
 To see payload file [click](https://github.com/meharlist/moo-jsonplaceholder-qa/blob/master/src/test/java/moo/users/newUser.json) here.
 <br/>
@@ -146,13 +150,14 @@ To see payload file [click](https://github.com/meharlist/moo-jsonplaceholder-qa/
 ![](images/scenario_get_del_01.JPG)
 
 <br/>
+
 ### Project Structure
 
 ![](images/project_struc_01.jpg)
 
 > In the next image you will witness the **Configuration file** and Karate keyword **Background** in feature file
 To see **Configuration file** in this project, [click](https://github.com/meharlist/moo-jsonplaceholder-qa/blob/master/src/test/java/karate-config.js) here, and to witness or understand **Background** [click](https://github.com/meharlist/moo-jsonplaceholder-qa/blob/master/src/test/java/moo/users/users.feature) here.
-
+<br/>
 ![](images/baseUrl_config_feature_file.jpg)
 
 
